@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NLCamping</string>
+    <string name="add_my_list">Toevoegen Mijn Lijst</string>
+    <string name="add_park">Toevoegen een park</string>
+    <string name="add_park_picture">Toevoegen park foto</string>
+    <string name="add_review">Toevoegen beoordeling</string>
+    <string name="address">Adres</string>
+    <string name="camping_in_netherlands">Kamperen NL</string>
+    <string name="camping_park_address">Camping park adres</string>
+    <string name="camping_park_name">Camping park naam</string>
+    <string name="comment">Aanmerking</string>
+    <string name="delete">Verwijderen</string>
+    <string name="detail">Detail</string>
+    <string name="edit">Wijziging</string>
+    <string name="favorite">Favoriete</string>
+    <string name="home">Home</string>
+    <string name="language">Taal</string>
+    <string name="language_setting">Taal kiezen</string>
+    <string name="my_favorite_camping_parks">Mijn Camping parks</string>
+    <string name="reviews">Beoordeling</string>
+    <string name="satisfaction_score_1_5">Tevredenheid punt</string>
+    <string name="save">Opslaan</string>
+    <string name="search">Zoeken</string>
+    <string name="website_address">Webadres</string>
+    <string name="id">ID:</string>
+    <string name="animal_friendly">Diervriendelijk</string>
+    <string name="bungalow">Bungalow</string>
+    <string name="caravan_site">Caravan plek</string>
+    <string name="language_option">Taal Optie</string>
+    <string name="restaurant">Restuarant</string>
+    <string name="search_camping_park">Zoeken Camping Park</string>
+    <string name="search_option">Zoeken Optie</string>
+    <string name="swimming_pool">Zwembad</string>
+    <string name="tent_site">Tent Plek</string>
+    <string name="wifi">Wifi</string>
+    <string name="parks_in_provinces">parken in provincies</string>
+    <string name="overview">Overzicht</string>
+</resources>

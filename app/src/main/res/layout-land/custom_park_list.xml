@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom_background2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/parkNameInCustom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:paddingTop="3dp"
+            android:text="TextView" />
+
+        <RatingBar
+            android:id="@+id/ratingBarInCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/parkImageInCustom"
+                android:layout_width="177dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <com.jihee.nlcamping.compoundControl.ParkDetailView
+                android:id="@+id/parkDetailViewInCustom"
+                android:layout_width="352dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </com.jihee.nlcamping.compoundControl.ParkDetailView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:text="Property Amenities"
+                    android:textAlignment="center" />
+
+                <com.jihee.nlcamping.compoundControl.AmenitiesBarView
+                    android:id="@+id/amenityBarView"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

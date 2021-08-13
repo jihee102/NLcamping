@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_pin" />
+
+            <TextView
+                android:id="@+id/addressInCustom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoLink="map"
+                android:paddingLeft="5dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_whatsapp" />
+
+            <TextView
+                android:id="@+id/phoneInCustom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:paddingLeft="5dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_www" />
+
+            <TextView
+                android:id="@+id/webInCustom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoLink="web"
+                android:paddingLeft="5dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

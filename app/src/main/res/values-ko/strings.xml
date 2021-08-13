@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NLCamping</string>
+    <string name="add_my_list">즐겨찾기 추가</string>
+    <string name="add_park">캠핑장 추가</string>
+    <string name="add_park_picture">캠핑장 사진 추가</string>
+    <string name="add_review">리뷰 남기기</string>
+    <string name="address">주소</string>
+    <string name="camping_in_netherlands">네덜란드 캠핑</string>
+    <string name="camping_park_address">캠핑장 주소</string>
+    <string name="camping_park_name">캠핑장 이름</string>
+    <string name="comment">코멘트</string>
+    <string name="delete">삭제</string>
+    <string name="detail">디테일정보</string>
+    <string name="edit">수정</string>
+    <string name="favorite">즐겨찾기</string>
+    <string name="home">홈</string>
+    <string name="language">언어</string>
+    <string name="language_setting">언어 선택</string>
+    <string name="my_favorite_camping_parks">내 최애 보관함</string>
+    <string name="reviews">리뷰</string>
+    <string name="satisfaction_score_1_5">만족점수(1~5)</string>
+    <string name="save">저장</string>
+    <string name="search">검색</string>
+    <string name="website_address">웹페이지</string>
+    <string name="id">아이디:</string>
+    <string name="animal_friendly">애완동물허용</string>
+    <string name="bungalow">벙갈로우</string>
+    <string name="caravan_site">카라반 사이트</string>
+    <string name="language_option">언어 옵션</string>
+    <string name="restaurant">식당</string>
+    <string name="search_camping_park">캠핑장 검색</string>
+    <string name="search_option">검색 옵션</string>
+    <string name="swimming_pool">수영장</string>
+    <string name="tent_site">텐트 사이트</string>
+    <string name="wifi">와이파이</string>
+    <string name="parks_in_provinces">프로방스별 캠핑장</string>
+    <string name="overview">차트보기</string>
+</resources>

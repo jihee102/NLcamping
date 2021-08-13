@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ParkEditAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/parkNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/camping_park_name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/parkAddressEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/address"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/parkPhoneEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Contact number"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/parkWebsiteEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/website_address"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/parkEditSaveButton"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:onClick="whenSavePressed"
+                    android:text="@string/save"
+                    android:textColor="#E91E63" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/add_park_picture"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:id="@+id/parkPictureEdit"
+                    android:layout_width="112dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_weight="1"
+                    android:onClick="addImage"
+                    app:srcCompat="@android:drawable/ic_menu_camera" />
+
+                <com.jihee.nlcamping.compoundControl.AmenitiesSettingView
+                    android:id="@+id/amenitySetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="65dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
